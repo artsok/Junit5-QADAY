@@ -6,9 +6,9 @@ import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
- * Created by sbt-sokovets-av 30.11.2016.
+ * Created by sbt-sokovets-av
  */
-public class Features4 {
+public class $4_FeaturesTest {
 
     @Test
     void groupAssertions() {

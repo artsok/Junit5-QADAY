@@ -1,6 +1,7 @@
 package ru.sbt.qa.day.example4;
 
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
@@ -11,12 +12,9 @@ import org.junit.jupiter.api.Test;
 @DisplayName("СББОЛ TK API - Отправка писем в банк")
 public class BDDStyleTest {
 
-    @Nested
-    @DisplayName("Дано:")
-    class Init {
-        @Test
-        @DisplayName("Пользователь проходит авторизацию в системе")
-        void login() { /*...*/ }
+    @Test
+    @DisplayName("Дано: Пользователь проходит авторизацию в системе")
+    void login() { /*...*/ }
 
 
         @Nested
@@ -53,6 +51,5 @@ public class BDDStyleTest {
                 }
             }
         }
-    }
 
 }

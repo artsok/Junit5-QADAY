@@ -6,12 +6,12 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
- * Created by sbt-sokovets-av 30.11.2016.
+ * Created by sbt-sokovets-av
  */
-public class Features2 {
+public class $2_FeaturesTest {
     @Test
     @Disabled("Тест не будет запущен")
     void ourSecondTest() {
-        assertTrue(false, "QADAY СБТ");
+        assertTrue(false, "QADAY");
     }
 }

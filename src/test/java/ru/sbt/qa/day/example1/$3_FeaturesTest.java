@@ -5,9 +5,9 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
- * Created by sbt-sokovets-av 30.11.2016.
+ * Created by sbt-sokovets-av
  */
-public class Features3 {
+public class $3_FeaturesTest {
 
     @Test
     public void ourFourthTest() {
