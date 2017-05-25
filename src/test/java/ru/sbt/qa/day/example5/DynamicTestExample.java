@@ -11,23 +11,15 @@ import java.util.Collection;
 /**
  * Created by sbt-sokovets-av
  */
-public class DynamicTestExample {
+class DynamicTestExample {
 
     @DisplayName("Проверка отправки сообщений в mq очередь")
     @TestFactory
-    public Collection<DynamicTest> testDynamicTest() {
-        System.out.println("DynamicTest");
+    Collection<DynamicTest> testDynamicTest() {
         return Arrays.asList(
                 DynamicTest.dynamicTest("Тест №1",
                         () -> Assertions.assertTrue(true)),
                 DynamicTest.dynamicTest("Тест №2",
                         () -> Assertions.assertFalse(false)));
     }
-//
-//    createDynamicTestsReturnAsCollection() {
-//        return Arrays.asList(
-//                dynamicTest("A dynamic test",
-//                        () -> assertTrue(true)),
-//                dynamicTest("Another dynamic test",
-//                        () -> assertEquals(6, 3 * 2))
 }
