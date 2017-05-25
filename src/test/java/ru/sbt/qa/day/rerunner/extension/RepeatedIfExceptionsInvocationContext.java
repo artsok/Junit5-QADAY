@@ -2,8 +2,6 @@ package ru.sbt.qa.day.rerunner.extension;
 
 import org.junit.jupiter.api.extension.TestTemplateInvocationContext;
 
-import static ru.sbt.qa.day.rerunner.extension.RepeatIfExceptionsCondition.isExceptionAppear;
-
 /**
  * Created by Sokovets-AV
  */
