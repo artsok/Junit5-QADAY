@@ -121,8 +121,8 @@
                 <!-- Фильтрация по тегам -->
                 <configuration>
                     <properties>
-                        <includeTags>LoveYou1134</includeTags> <!-- Tag=acceptance -->
-                        <!--<excludeTags>integration, regression</excludeTags> &lt;!&ndash; Исключить Теги &ndash;&gt;-->
+                        <!--<includeTags>Test</includeTags>
+                        <excludeTags>integration, regression</excludeTags> -->
                     </properties>
                 </configuration>
                 <dependencies>
