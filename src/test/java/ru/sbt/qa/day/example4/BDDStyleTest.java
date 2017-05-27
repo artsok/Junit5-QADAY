@@ -1,17 +1,14 @@
 package ru.sbt.qa.day.example4;
 
 
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
-import static org.junit.jupiter.api.Assertions.assertNotNull;
-
 /**
- * Created by sbt-sokovets-av 30.11.2016.
+ * Created by sbt-sokovets-av
  */
 @DisplayName("СББОЛ TK API - Отправка писем в банк")
 public class BDDStyleTest {

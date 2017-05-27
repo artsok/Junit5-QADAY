@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertTimeout;
 import static org.junit.jupiter.api.Assertions.assertTimeoutPreemptively;
 
 /**
- * Created by Sokovets-AV
+ * Created by sbt-sokovets-av
  */
 class TimeOutTest {
 

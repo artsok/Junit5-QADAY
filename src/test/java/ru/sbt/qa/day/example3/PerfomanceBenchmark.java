@@ -9,7 +9,7 @@ import static java.lang.System.out;
 import static java.util.Collections.singletonMap;
 
 /**
- * Created by sbt-sokovets-av 30.11.2016.
+ * Created by sbt-sokovets-av
  */
 class PerfomanceBenchmark  implements BeforeEachCallback, AfterEachCallback {
 

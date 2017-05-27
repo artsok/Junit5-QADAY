@@ -3,7 +3,7 @@ package ru.sbt.qa.day.example2;
 import org.junit.jupiter.api.Test;
 
 /**
- * Created by sbt-sokovets-av 30.11.2016.
+ * Created by sbt-sokovets-av
  */
 @DisabledOnDevDay
 public class RunTest {

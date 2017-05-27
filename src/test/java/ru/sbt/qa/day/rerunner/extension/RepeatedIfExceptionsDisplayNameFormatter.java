@@ -6,7 +6,7 @@ import static ru.sbt.qa.day.rerunner.RepeatedIfExceptionsTest.DISPLAY_NAME_PLACE
 import static ru.sbt.qa.day.rerunner.RepeatedIfExceptionsTest.TOTAL_REPETITIONS_PLACEHOLDER;
 
 /**
- * Created by Sokovets-AV
+ * Created by sbt-sokovets-av
  */
 class RepeatedIfExceptionsDisplayNameFormatter {
 

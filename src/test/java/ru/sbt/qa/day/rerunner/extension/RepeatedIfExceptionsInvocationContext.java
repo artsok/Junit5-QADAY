@@ -3,7 +3,7 @@ package ru.sbt.qa.day.rerunner.extension;
 import org.junit.jupiter.api.extension.TestTemplateInvocationContext;
 
 /**
- * Created by Sokovets-AV
+ * Created by sbt-sokovets-av
  */
 public class RepeatedIfExceptionsInvocationContext implements TestTemplateInvocationContext {
 

@@ -3,9 +3,9 @@ package ru.sbt.qa.day.example3;
 import org.junit.jupiter.api.Test;
 
 /**
- * Created by sbt-sokovets-av 30.11.2016.
+ * Created by sbt-sokovets-av
  */
-public class RunTest {
+class RunTest {
 
     @Test
     @PerfomanceBenchmarks

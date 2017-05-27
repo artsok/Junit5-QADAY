@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 /**
  * Created by sbt-sokovets-av
  */
-public class $2_FeaturesTest {
+class Features_2_Test {
     @Test
     @Disabled("Тест не будет запущен")
     void ourSecondTest() {

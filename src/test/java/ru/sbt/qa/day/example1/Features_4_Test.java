@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 /**
  * Created by sbt-sokovets-av
  */
-public class Features_4_Test {
+class Features_4_Test {
 
     @Test
     void groupAssertions() {

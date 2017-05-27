@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 /**
  * Created by sbt-sokovets-av
  */
-public class $3_FeaturesTest {
+class Features_3_Test {
 
     @Test
     public void ourFourthTest() {

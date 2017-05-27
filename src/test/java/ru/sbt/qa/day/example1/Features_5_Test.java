@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.*;
 /**
  * Created by sbt-sokovets-av
  */
-public class $5_FeaturesTest {
+class Features_5_Test {
 
     private void throwException() {
         throw new RuntimeException("QADAY СБТ");

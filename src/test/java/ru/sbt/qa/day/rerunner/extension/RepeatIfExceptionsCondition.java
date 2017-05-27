@@ -9,11 +9,9 @@ import ru.sbt.qa.day.rerunner.RepeatedIfExceptionsTest;
 
 import java.lang.reflect.Method;
 import java.util.Iterator;
-import java.util.List;
 import java.util.Spliterator;
 import java.util.stream.Stream;
 
-import static java.util.Arrays.asList;
 import static java.util.Spliterators.spliteratorUnknownSize;
 import static java.util.stream.Stream.of;
 import static java.util.stream.StreamSupport.stream;
@@ -21,7 +19,7 @@ import static org.junit.platform.commons.util.AnnotationUtils.findAnnotation;
 import static org.junit.platform.commons.util.AnnotationUtils.isAnnotated;
 
 /**
- * Created by Sokovets-AV
+ * Created by sbt-sokovets-av
  */
 @Slf4j
 public class RepeatIfExceptionsCondition implements TestTemplateInvocationContextProvider, AfterTestExecutionCallback  {
